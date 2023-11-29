@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    /* Шрифт для всего документа */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.quiz-container {
+    width: 80%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background: #312F30;
+}
+
+/* Стили для заголовка теста */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #FFF;
+
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* Стили для блока вопроса и вариантов ответов */
+.question,
+.options {
+    display: block;
+    color: #FFF;
+
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.options{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Стили для кнопок с вариантами ответов */
+button {
+    font-size: 16px;
+    padding: 10px;
+    margin: 5px;
+    margin-top: 25px;
+    background-color: #F6762C;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #FFF;
+
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* Стили для кнопок с вариантами ответов при наведении*/
+button:hover {
+    transform: scaleX(1.5) scaleY(1.5);
+    background: linear-gradient(135deg, #ff8c49, #ff5e00);
+    border-radius: 5px;
+}
+
+/* Стили для блока с результатом теста */
+.result {
+    font-size: 18px;
+    margin-top: 20px;
+    display: none;
+    color: #333;
+}

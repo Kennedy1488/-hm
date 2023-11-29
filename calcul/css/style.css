@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    background: #312F30;
+}
+
+.wrapper {
+    margin: auto;
+    height: 50vh;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+table {
+    margin: 0;
+    width: 300px;
+}
+
+.num1 {
+    width: 300px;
+    margin: 0;
+}
+
+#num1 {
+    width: 100%;
+}
+
+.input {
+    background-color: black;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.numbers1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.operator_btns {
+    display: flex;
+    column-gap: 10px;
+    height: 50px;
+}
+
+.operator {
+    width: 50px;
+    height: 50px;
+    background: #F6762C;
+    color: #FFF;
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.num2 {
+    width: 300px;
+    margin: 0;
+}
+
+
+#num2 {
+    width: 100%;
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+}
+
+.numbers2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn {
+    margin: 5px;
+    width: calc((300px - 30px)/2);
+    background: #F6762C;
+    color: #FFF;
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.margin{
+    margin-bottom: 50px;
+}
