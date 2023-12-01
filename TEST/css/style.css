@@ -46,7 +46,7 @@ h1 {
     line-height: normal;
 }
 
-.options{
+.options {
     display: flex;
     justify-content: space-evenly;
     width: 80%;
@@ -85,5 +85,5 @@ button:hover {
     font-size: 18px;
     margin-top: 20px;
     display: none;
-    color: #333;
+    color: #FFF;
 }

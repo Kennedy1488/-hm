@@ -49,7 +49,7 @@ h2 {
     display: block;
 }
 
-.answer{
+.answer {
     color: #FFF;
     background-color: #312F30;
     border: #FFF solid 1px;
@@ -77,9 +77,13 @@ button:hover {
     border-radius: 5px;
 }
 
+.output {
+    color: #FFF;
+}
+
 /* Стили для блока с результатом теста */
 .result {
     font-size: 18px;
     margin-top: 20px;
-    color: #333;
+    color: #FFF;
 }
